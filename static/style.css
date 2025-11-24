@@ -1,0 +1,92 @@
+body {
+    background: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 420px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 28px;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 14px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #1e4fc5;
+}
+
+ul {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 6px solid #2563eb;
+}
+
+li span {
+    font-size: 18px;
+}
+
+li button {
+    margin-left: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+li button:nth-child(1) {
+    background: #10b981; /* Green for complete */
+}
+
+li button:nth-child(1):hover {
+    background: #0c8a63;
+}
+
+li button:nth-child(2) {
+    background: #ef4444; /* Red for delete */
+}
+
+li button:nth-child(2):hover {
+    background: #c73737;
+}
